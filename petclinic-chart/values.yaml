@@ -3,7 +3,7 @@ name: petclinic
 image:
   repository: 241533123721.dkr.ecr.us-east-1.amazonaws.com/petclinic
   pullPolicy: IfNotPresent
-  tag: "34-13262c4"
+  tag: "28-cf96c84"
 
 service:
   type: LoadBalancer
