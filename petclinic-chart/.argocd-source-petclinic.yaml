@@ -1,0 +1,14 @@
+helm:
+  parameters:
+  - name: image.repository
+    value: 241533123721.dkr.ecr.us-east-1.amazonaws.com/petclinic
+    forcestring: false
+  - name: image.tag
+    value: 39-8dfb5c8
+    forcestring: true
+  - name: replicaCount
+    value: "1"
+    forcestring: false
+  - name: image.name
+    value: 241533123721.dkr.ecr.us-east-1.amazonaws.com/petclinic
+    forcestring: true
